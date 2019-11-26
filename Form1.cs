@@ -245,7 +245,7 @@ namespace ZMECG
         }
 
         private void button10_Click(object sender, EventArgs e)
-        {
+        {//添加注释。//////////////////////////////////////////////////
            int X = Int32.Parse(this.ReadText("TOOL\\Position\\P7X.txt"));
            int Y = Int32.Parse(this.ReadText("TOOL\\Position\\P7Y.txt"));
             int X1 = Int32.Parse(this.ReadText("TOOL\\Position\\P8X.txt"));
